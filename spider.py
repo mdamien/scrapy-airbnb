@@ -33,7 +33,7 @@ class AirbnbSpider(scrapy.Spider):
     def parse(self, response):
         for url in response.css('a::attr("href")').extract():
             url = response.urljoin(clean(url))
-            if 'airbnb.com' in url and not '.png' in url and not '.jpg' in url and not 'blog.airbnb.com' in url:
+            if 'www.airbnb.com' in url and not '.png' in url and not '.jpg' in url and not 'blog.airbnb.com' in url:
                 priority = 1 if 'rooms/' in response.url else 0
                 yield scrapy.Request(url, self.parse, priority=priority)
         if 'rooms/' in response.url:
@@ -42,7 +42,6 @@ class AirbnbSpider(scrapy.Spider):
 
     def parse_listing(self, response):
         boot = extract_bootstrap(response)
-        pp(list(boot.keys()))
         data = boot['room_options']
         data.update(boot['listing'])
         data.update(boot['neighborhood_card'])

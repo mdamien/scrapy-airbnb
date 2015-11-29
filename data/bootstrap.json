@@ -1,0 +1,2082 @@
+{
+  "_bootstrap-needs_verification": "null", 
+  "_bootstrap-facebook-init": {
+    "scope": "email,user_birthday,user_likes,user_education_history,user_hometown,user_location,user_friends", 
+    "sdkUrl": "https://connect.facebook.net/en_US/sdk.js", 
+    "enabled": true, 
+    "appId": "138566025676"
+  }, 
+  "_bootstrap-image_paths": {
+    "account_activation/success.jpg": "https://a2.muscache.com/airbnb/static/account_activation/success-15a147d04b3a4af77d3ac5bd6f03d95d.jpg", 
+    "business-travel/business-travel-ready/amenities-and-services.png": "https://a0.muscache.com/airbnb/static/business-travel/business-travel-ready/amenities-and-services-579b5e29adcdb484e2e038c5455fb0df.png", 
+    "account_activation/welcome.jpg": "https://a1.muscache.com/airbnb/static/account_activation/welcome-aa503648ad6513fc0cb1284728e70d35.jpg", 
+    "user_pic-225x225.png?v=2": "https://a0.muscache.com/airbnb/static/user_pic-225x225.png?v=2"
+  }, 
+  "_bootstrap-javascript_paths": {
+    "packages/field_guide.bundle.js": "https://a1.muscache.com/airbnb/static/packages/field_guide.bundle-ddc3e9673beb156b0a6c53b7b6852728.js", 
+    "packages/airlock_modal.bundle.js": "https://a2.muscache.com/airbnb/static/packages/airlock_modal.bundle-08006f0684e649270dfd659eacf06f77.js", 
+    "packages/profile_pic_upsell.js": "https://a1.muscache.com/airbnb/static/packages/profile_pic_upsell-a5bbaa1ebe2d126dcf4186420aa656e6.js", 
+    "packages/airlock_inline.bundle.js": "https://a1.muscache.com/airbnb/static/packages/airlock_inline.bundle-0c8d6e90b11c144afd2067a52eba1cf1.js", 
+    "packages/reset_password_modal.bundle.js": "https://a1.muscache.com/airbnb/static/packages/reset_password_modal.bundle-8343e54d101428a29f90237179efd49d.js", 
+    "packages/account_activation.bundle.js": "https://a2.muscache.com/airbnb/static/packages/account_activation.bundle-14c472ad56313c03f8ea507e2d82ced1.js"
+  }, 
+  "_bootstrap-phrases": {
+    "wl_modal.save_confirmation": "%{smart_count} Wishlist |||| %{smart_count} Wishlists", 
+    "calendar.host_requires_no_departure": "%{host_name} isn\u2019t available%{line_break} for check out on%{line_break} this date", 
+    "similar_listings": "Similar Listings", 
+    "View available properties": "View available dates", 
+    "airlock.phone_verification.Send me a text message": "Send me a text message (SMS)", 
+    "profile_pic_upsell.connect_google": "Connect With Google", 
+    "profile_pic_upsell.add_photo_subheader": "Add a photo so potential hosts can put a face to the name once you\u2019re ready to book.", 
+    "save_to_wish_list_and_fb": "Save to Wish List and Facebook Timeline", 
+    "choose_currency": "Choose currency", 
+    "checkin": "Check in", 
+    "check_back_for_listings": "Check back to see all the listings that caught your eye.", 
+    "long_term": "Long Term", 
+    "airlock.no_phone_access.Email Airbnb": "Email Airbnb", 
+    "book_it": "Book It", 
+    "room_type_2": "Shared room", 
+    "review_highlight_pages": "%{current_page_num} of %{total_page_num}", 
+    "room_type_1": "Private room", 
+    "shared.Check out": "Check out", 
+    "Tuesdays": "Tuesdays", 
+    "Vacation Home Rentals in city": "Vacation Home Rentals in %{city}", 
+    "hostCancelCouponAlert": "When your booking is accepted, we\u2019ll refund the %{price_start}%{refund_price}%{price_end} left over from your canceled reservation.", 
+    "translating": "Translating...", 
+    "airlock.api_error": "Something went wrong while processing your request. Please try again.", 
+    "per_month": "per month", 
+    "profile_pic_uploader.save and continue": "Save and Continue", 
+    "Price per night x nights": "%{basePricePerNight} x %{smart_count} night |||| %{basePricePerNight} x %{smart_count} nights", 
+    "see_all": "See All", 
+    "airlock.phone_verification.payout_create.option_selection.description": "We want to confirm that it\u2019s really you who\u2019s trying to add a payout method.  To do that, we\u2019ll send a code to a phone you\u2019ve previously verified on Airbnb.", 
+    "profile_pic_uploader.take_photo": "Take Photo", 
+    "profile_pic_upsell.after_pic_upload_welcome_header": "Looking Good, %{guest_first_name}!", 
+    "messaging.when are you traveling": "When are you traveling?", 
+    "shared.Check in": "Check in", 
+    "airlock.password_reset.response.description": "Changing your password is an easy way to help keep your account secure. Let\u2019s do that now.", 
+    "must_log_in": "You must log in to continue", 
+    "priv.only_me_description": "Visible only to you and not shared anywhere.", 
+    "priv.only_me": "Only Me", 
+    "Vacation Rentals in city": "Vacation Rentals in %{city}", 
+    "logout": "Log Out", 
+    "sign_up": "Sign Up", 
+    "airlock.phone_verification.response.title": "Enter your 4-digit code.", 
+    "search": "Search", 
+    "per_night": "Per night", 
+    "messaging.test_inquiry.select_date": "Select date for your test inquiry", 
+    "too_many_filters": "We couldn\u2019t find any results that matched your criteria, but tweaking your search may help. Here are some ideas:", 
+    "Back": "Back", 
+    "find_a_place": "Find a place", 
+    "host_recommendation": "Host Recommendation", 
+    "smart_banner.Always be ready": "Always be ready", 
+    "messaging.what do you love about this listing": "What do you love about this listing? Mention it!", 
+    "shared.total": "Total", 
+    "datepicker_min_nights_this_month": "%{smart_count} night min. this month |||| %{smart_count} nights min. this month", 
+    "referrals.invite friends": "Invite Friends", 
+    "notifications.Unread Messages In Inbox From Last 7 Days": "You have %{smart_count} unread message in your inbox from the past week.||||You have %{smart_count} unread messages in your inbox from the past week.", 
+    "total": "Total", 
+    "Short Term Apartment Rentals in city": "Short Term Apartment Rentals in %{city}", 
+    "airlock.phone_verification.Phone number ending in": "Phone number ending in %{last_four}", 
+    "profile_pic_upsell.add_photo_header": "Get Started With a Profile Photo", 
+    "checkin_noun": "Check-In", 
+    "location_map": "Location Map", 
+    "datepicker_min_nights_varies": "Minimum stay varies", 
+    "field_guide.articles_result_title": "Articles related to \"%{query}\"", 
+    "Short Term Home Rentals in city": "Short Term Home Rentals in %{city}", 
+    "p3.strict_cancellation.Strict Cancellation": "Strict Cancellation", 
+    "Short Term Loft Rentals in city": "Short Term Loft Rentals in %{city}", 
+    "preview": "Preview", 
+    "show_original_reviews": "Show original reviews", 
+    "field_guide.search_for_anything": "Search for anything (booking a place, getting paid, reviews)", 
+    "ml.preview.this_is_a_preview_of_your_listing": "This is a preview of your listing.", 
+    "airlock.no_phone_access.introduction.tip.title": "Make this update faster with your phone", 
+    "Message Sent!": "Message Sent!", 
+    "messaging.view_previous_messages": "View previous messages", 
+    "checkpoint.Contact Me Copy": "Airbnb is creating a safe, trusted community. While you wait for a response, take a few minutes to verify your identity. You'll be asked to do this when completing your booking so save some time and do it now!", 
+    "messaging.what brings you to location": "What brings you to %{location}? Who\u2019s joining you?", 
+    "airlock.password_reset.response.current_password": "Current Password", 
+    "profile_pic_uploader.confirm your photo": "Confirm your photo", 
+    "user.signup.forgot_password": "Forgot password?", 
+    "airlock.introduction": "In order to continue, we ask that you complete a few challenges.", 
+    "airlock.phone_verification.option_selection.description": "We want to confirm that it\u2019s really you who\u2019s trying to access your account. To do that, we\u2019ll send a code to a phone you\u2019ve previously verified on Airbnb.", 
+    "city Short Term Lofts for Rent": "%{city} Short Term Lofts for Rent", 
+    "reviews_ordered_by_language_announcement": "Showing reviews in English first", 
+    "airlock.phone_verification.Call me": "Call me", 
+    "messaging.make sure you share the following": "Make sure you share the following:", 
+    "neighborhood_singular": "Neighborhood", 
+    "shared.Continue": "Continue", 
+    "city Villa Rentals": "%{city} Villa Rentals", 
+    "shared.Help Center": "Help Center", 
+    "Short Term House Rentals in city": "Short Term House Rentals in %{city}", 
+    "profile_pic_uploader.smile": "Smile!", 
+    "referrals.post_contact_modal.invite_friends_and_earn_credit": "Now, earn travel credit for your future adventures. You can get %{credit_amount} for each friend you invite.", 
+    "Host's place is usually booked": "%{user}'s place is usually booked.", 
+    "general_create_new_wish_list_error_message": "There was an error creating your wish list.", 
+    "airlock.Get Started": "Get Started", 
+    "field_guide.suggested_articles": "Suggested Articles", 
+    "shared.See all": "See all", 
+    "city Rentals": "%{city} Rentals", 
+    "profile_pic_uploader.upload_photo": "Upload Photo", 
+    "urgency_commitment_dated_views_body": "%{smart_count} person is also looking at it for these dates. |||| %{smart_count} people are also looking at it for these dates.", 
+    "instant_book_it": "Instant Book", 
+    "airlock.no_phone_access.introduction.introduction": "For security reasons, having Airbnb manually confirm this change can take 1-2 days. Email us at <a href=\"mailto:account.disabled@airbnb.com\">account.disabled@airbnb.com</a> from an address associated with your account and we\u2019ll take it from there.", 
+    "instant_book": "Instant Book", 
+    "help": "Help", 
+    "users.Please_enter_your_Airbnb_password_to_continue.": "For your security, please enter your Airbnb password to continue.", 
+    "shared.x guests": "%{smart_count} guest |||| %{smart_count} guests", 
+    "datepicker_never_updated": "Never updated", 
+    "how_it_works": "How it Works", 
+    "welcome.tell_us_about_yourself": "Tell Us About Yourself", 
+    "city Vacation House Rentals": "%{city} Vacation House Rentals", 
+    "messaging.fraud.error.What is this (referring to CAPTCHA)": "What's this?", 
+    "Vacation Apartments for Rent in city": "Vacation Apartments for Rent in %{city}", 
+    "ml.preview.this is a preview with list your space link": "This is a preview of your listing. %{link_begin}Publish%{link_end} now.", 
+    "book_now": "Book Now", 
+    "airlock.photo_id_verification.response.invalid": "Something went wrong while scanning your ID. Please try again.", 
+    "TOTAL": "TOTAL", 
+    "calendar.host_requires_start_day_of_week": "%{host_name} requires checking in%{line_break} on %{day_of_week_plural}", 
+    "profile_pic_upsell.connect_facebook": "Connect With Facebook", 
+    "airlock.title": "Security Check", 
+    "airlock.phone_verification.title": "Phone Verification", 
+    "field_guide.how_can_we_help": "How can we help you?", 
+    "profile_pic_uploader.change photo": "Change Photo", 
+    "translate_reviews": "Translate reviews to English", 
+    "priv.everyone_description": "Visible to everyone and included on your public Airbnb profile.", 
+    "shared.No, Thanks": "No, Thanks", 
+    "users.Confirm_Password_to_Continue": "Confirm Password to Continue", 
+    "view this article in the help center": "View this article in the Help Center", 
+    "p3.mark_review_as_helpful": "Helpful", 
+    "name": "User", 
+    "wl_modal.add_note": "Add a note", 
+    "choose_language": "Choose language", 
+    "shared.Close": "Close", 
+    "p3_upsell.instant_book.turned_on": "This listing has Instant Book turned on.", 
+    "wl_modal.save": "Save", 
+    "datepicker_updated_days_ago": "Updated %{smart_count} day ago |||| Updated %{smart_count} days ago", 
+    "Villas for Rent in city": "Villas for Rent in %{city}", 
+    "users.Cancel": "Cancel", 
+    "total_amounts": "Total amounts", 
+    "shared.pluralize.person": "%{smart_count} person||||%{smart_count} people", 
+    "profile_pic_upsell.easier_to_book": "It\u2019s easier to book a place when hosts know who you are.", 
+    "airlock.phone_verification.We sent a code to your phone number": "We sent a code to your phone number ending in %{last_four_digits}.", 
+    "More": "More", 
+    "ml.preview.your_space_is_unlisted": "Your space is unlisted.", 
+    "airlock.contact_us.response.title": "Contact Us", 
+    "no_similar_listings": "No similar listings available.", 
+    "notifications.Error": "Sorry, we can\u2019t load new messages right now. %{link_start}View Inbox%{link_end}", 
+    "room_type_0": "Entire home/apt", 
+    "airlock.photo_id_verification.verified": "Account Verified", 
+    "field_guide.view_all_trips": "View all trips", 
+    "city Bed and Breakfasts": "%{city} Bed and Breakfasts", 
+    "airlock.password_reset.response.title": "Let\u2019s change your password.", 
+    "field_guide.suggested_actions": "Suggested Actions", 
+    "p3.strict_cancellation.50% refund until one week before arrival": "50% refund until one week before arrival, except service fees.", 
+    "field_guide.error.no_load_topic": "Suggested help articles unavailable\u2014visit our %{link_start}Help Center%{link_end} instead.", 
+    "accommodation": "Accommodation", 
+    "sharing.open_graph.no_thanks": "No thanks", 
+    "city Short Term Apartment Rentals": "%{city} Short Term Apartment Rentals", 
+    "Short Term Rentals in city": "Short Term Rentals in %{city}", 
+    "Per Night": "Per Night", 
+    "includes_vat": "(includes VAT)", 
+    "interactionViewMessage": "View message", 
+    "hover_card_title": "Listing Location", 
+    "p3_upsell.instant_book.reservation_prompt": "Send this host a reservation request to let them know you want to book their space. This increases your chances of getting this listing.", 
+    "airlock.phone_verification.Enter Your Code": "Enter Your Code", 
+    "shared.View Inbox": "View Inbox", 
+    "Please enter a message": "Please enter a message", 
+    "field_guide.no_results": "No results found", 
+    "calendar.host_requires_minimum_nights": "A minimum of %{smart_count} %{line_break}night stay is required |||| A minimum of %{smart_count} %{line_break}nights stay is required", 
+    "response_from_you": "Response from you:", 
+    "host_standards.rooms.deactivated_flash": "Your listing is temporarily deactivated. %{reactivate_link_start}Learn more and reactivate.%{reactivate_link_end}||||Your listings are temporarily deactivated. %{reactivate_link_start}Learn more and reactivate.%{reactivate_link_end}", 
+    "airlock.account_disabled.introduction.title": "Account Disabled", 
+    "Lofts for Rent in city": "Lofts for Rent in %{city}", 
+    "airlock.captcha.response.invalid": "Please try completing the prompt below again.", 
+    "checkout": "Check out", 
+    "users.Confirm_Facebook_Password": "Confirm Facebook Password", 
+    "translate_this_description": "Translate this description to English", 
+    "Saturdays": "Saturdays", 
+    "airlock.account_disabled.introduction.introduction": "To help protect your information, we\u2019ve temporarily blocked your Airbnb account.", 
+    "Vacation Apartment Rentals in city": "Vacation Apartment Rentals in %{city}", 
+    "copy_and_paste_following_html": "Copy and paste the following HTML into your website.", 
+    "limited_days_available_month": "Love %{user}'s place? Book soon. There are only <b>%{number_of_days}</b> available in the next month.", 
+    "shared.Log_in": "Log in", 
+    "priv.description": "Who can see this?", 
+    "download_the_app": "Download the App", 
+    "error_saving_your_response": "Sorry, there has been an error replying to this review.", 
+    "smart_banner.Install": "Install", 
+    "p3_upsell.top choice": "Is this your top choice?", 
+    "new_wishlist_name": "%{location} Trip", 
+    "Accommodations in city": "Accommodations in %{city}", 
+    "airlock.password_reset.Next": "Change Password", 
+    "expand_search": "Expand the area of your search.", 
+    "profile_pic_upsell.skipped_pic_upload_welcome_header": "Welcome to Airbnb, %{guest_first_name}!", 
+    "airlock.photo_id_verification.option_selection.title": "Verify Your ID", 
+    "profile_pic_upsell.upload_error_alert": "We couldn't upload your photo. Please try again.", 
+    "profile_pic_upsell.decline_add_photo": "Not Now", 
+    "field_guide.message_host": "Message %{host_name}", 
+    "Chances are... (likelihood a listing is booked in the near future)": "Chances are...", 
+    "messaging.dates_not_available": "These dates aren't available. You need to select available ones first.", 
+    "profile_pic_uploader.take_or_upload_photo": "Take or upload a photo", 
+    "shared.OK": "OK", 
+    "calendar.host_requires_no_arrival": "%{host_name} isn\u2019t available%{line_break} for check in on%{line_break} this date", 
+    "Bed and Breakfasts in city": "Bed and Breakfasts in %{city}", 
+    "field_guide.contact_your_host": "Contact your host", 
+    "airlock.no_phone_access.Send Me a Code": "Send Me a Code", 
+    "airlock.phone_verification.listing_activate.option_selection.description": "We want to confirm that it\u2019s really you who\u2019s trying to add a listing.  To do that, we\u2019ll send a code to a phone you\u2019ve previously verified on Airbnb.", 
+    "service_fee": "Service fee", 
+    "This is a rare find, referring to a listing in particular": "This is a rare find.", 
+    "shared.Guests": "Guests", 
+    "messaging.test_inquiry.not_a_booking": "This is only to help %{first_name} know what a booking inquiry will look like. It\u2019s not a real booking.", 
+    "sorry_something_went_wrong": "Sorry, something went wrong. Please refresh the page and try again.", 
+    "ml.preview.your space is unlisted with steps remaining": "Your space is unlisted. Complete %{link_begin}%{smart_count} step%{link_end} to list your space. |||| Your space is unlisted. Complete %{link_begin}%{smart_count} steps%{link_end} to list your space.", 
+    "urgency_commitment_tooltip_header_more_urgent": "Love this place? Book soon!", 
+    "room_type": "Room type", 
+    "wl_modal.wish_list_ideas": "Wish List Ideas", 
+    "profile_pic_uploader.file_type_error": "This file type is unsupported. This tool supports PNG and JPG files.", 
+    "ml.preview.your_space_is_listed_edit_calendar": "Your space is listed! %{link_start}Update your calendar%{link_end} to show guests when to book.", 
+    "messaging.send_message": "Send Message", 
+    "shared.Messages": "Messages", 
+    "airlock.phone_verification.option_selection.where": "Where should we send the code?", 
+    "p3.disaster.[first_name] waived cost for listing": "%{first_name} has waived the cost of staying here for people displaced by %{disaster_name}", 
+    "profile_pic_upsell.connect_weibo": "Connect With Weibo", 
+    "not_licensed_to_provide_booking_service": "We've determined your location to be in United States. We are not licensed to provide booking services for this listing.", 
+    "messaging.fraud.error.Explanation for why we need CAPTCHA": "Sometimes, automated programs abuse websites and try to send fake message to others. Complete the prompt above to show you're a real person who means to send this message.", 
+    "messaging.test_inquiry.respond_quickly": "Successful hosts\u2014like Superhosts\u2014usually respond to inquiries within 24 hours.", 
+    "photography": "Photography", 
+    "airlock.photo_id_verification.response.title": "Scan Your ID", 
+    "priv.everyone": "Everyone", 
+    "messaging.send_test_inquiry": "Send Test Inquiry", 
+    "notifications.Read All Notifications": "There is %{smart_count} notification waiting for you in your %{link_start}dashboard%{link_end}.||||There are %{smart_count} notifications waiting for you in your %{link_start}dashboard%{link_end}.", 
+    "Thursdays": "Thursdays", 
+    "shared.Welcome_to_Airbnb": "Welcome to Airbnb!", 
+    "smart_banner.Find your next adventure": "Find your next adventure, even if you're on the go.", 
+    "error_retrieving": "There was an error retrieving your recently viewed listings. Please try again later.", 
+    "airlock.phone_verification.payout_create.option_selection.title": "We need you to confirm this change.", 
+    "where_are_you_going": "Where are you going?", 
+    "invite_friends": "Invite Friends", 
+    "airlock.Next": "Next", 
+    "Per Month": "Per Month", 
+    "translate_disclaimer": "Automatic translations use Google Translate and may not be completely accurate.", 
+    "close": "Close", 
+    "airlock.success.You are done": "You\u2019re done! You can go back to what you were doing.", 
+    "notifications.5+ Notifications": "There are 5+ notifications waiting for you in your %{link_start}dashboard%{link_end}.", 
+    "your_trips": "Your Trips", 
+    "Wednesdays": "Wednesdays", 
+    "profile_pic_uploader.error": "There was an error uploading your picture. Please try again.", 
+    "wishlist_button_tooltip": "Save this listing to review later.", 
+    "messaging.send [name] a message": "Send %{first_name} a Message", 
+    "reservations.Check In": "Check In", 
+    "remove_filters": "Remove some filters.", 
+    "learn_more": "Learn more", 
+    "datepicker_updated_today": "Updated today", 
+    "Cannot message unavailable dates": "Sorry, you cannot message this host because the dates you have selected are unavailable.", 
+    "see_this_listing": "See This Listing", 
+    "response_tooltip_title": "If you disagree with this review or would like to address concerns raised by the user, you may leave a response. Please be sure to follow our Review Guidelines.", 
+    "airlock.captcha.thread_create.response.description": "Sometimes, automated programs abuse websites and try to send fake message to others. Complete the prompt below to show you\u2019re a real person who means to send this message.", 
+    "occupancy_taxes": "Occupancy Taxes", 
+    "p3.disaster.Reserved for disaster relief": "Reserve for disaster relief", 
+    "create_duplicate_new_wish_list_error_message": "Try a different name! You already have a wish list with that name.", 
+    "field_guide.welcome_name_how_can_we_help": "Welcome, %{first_name}! How can we help?", 
+    "airlock.no_phone_access.introduction.title": "Emailing us will take longer.", 
+    "view_count": "See yourself here? Book soon. <b>%{number_of_people}</b> viewed %{user}'s place this week.", 
+    "wl_modal.empty_message": "Save your favorite listings, compare notes, and start planning your next adventure.", 
+    "guests": "Guests", 
+    "request_to_book": "Request to Book", 
+    "airlock.phone_verification.We will wait right here": "We\u2019ll wait right here.", 
+    "messaging.test_inquiry.remember": "Remember:", 
+    "copied": "Copied!", 
+    "smart_banner.Open in App": "Open in App", 
+    "messaging.contacted_host_before": "You've contacted this host before.", 
+    "ml.preview.this is a preview with steps remaining": "This is a preview of your listing. Complete %{link_begin}%{smart_count} step%{link_end} to list your space. |||| This is a preview of your listing. Complete %{link_begin}%{smart_count} steps%{link_end} to list your space.", 
+    "profile_pic_upsell.recommend_booking_before_first_stay": "We recommend completing your profile before booking your first stay.", 
+    "smart_banner.title": "Airbnb for iOS", 
+    "city Yacht Rentals": "%{city} Yacht Rentals", 
+    "profile_pic_upsell.maybe_later": "Maybe Later", 
+    "clear_dates": "Clear Dates", 
+    "airlock.password_reset.response.new_password": "New Password", 
+    "reservations.Check Out": "Check Out", 
+    "profile_pic_uploader.connect_facebook": "Use Facebook", 
+    "airlock.contact_us.response.description": "For your security, we would like to further verify your account.  Please contact us at <a href=\"mailto:account.disabled@airbnb.com\">account.disabled@airbnb.com</a>.", 
+    "shared.Cancel": "Cancel", 
+    "sorry_og_photo_error": "Sorry, there was an error trying to publish your photos.  Please refresh the page and try again.", 
+    "airlock.no_phone_access.introduction.tip.description": "If you\u2019re traveling or your phone\u2019s just out of reach, wait until you get it back and try to make this update again.", 
+    "geocoding_unsuccessful": "We couldn\u2019t find any location that matched your query. Try a different city, address, or landmark.", 
+    "messaging.send [name] a test inquiry": "Send %{first_name} a Test Inquiry", 
+    "airlock.Back": "Back", 
+    "field_guide.search_down": "Unable to perform search, please try again later", 
+    "p3_upsell.instant_book.confirm_instantly": "If this is your top choice, enter your payment information to confirm your reservation instantly.", 
+    "airlock.phone_verification.option_selection.how": "How should we send the code?", 
+    "notifications.Additional Unread Messages": "You have %{smart_count} additional unread message.||||You have %{smart_count} additional unread messages.", 
+    "search_specific": "Search for a city, address, or landmark.", 
+    "discover": "Discover", 
+    "field_guide.contact_host_message": "For questions about your trip to %{destination}, contact your host.", 
+    "House Boat Rentals in city": "House Boat Rentals in %{city}", 
+    "log_in_to_save": "Log in to save this to a Wish List.", 
+    "notifications.Unread Messages In Inbox": "You have %{smart_count} unread message in your inbox.||||You have %{smart_count} unread messages in your inbox.", 
+    "airlock.phone_verification.Depending on your provider": "Depending on your provider, it may take a few minutes to arrive.", 
+    "Vacation Villas in city": "Vacation Villas in %{city}", 
+    "Please enter a valid start date": "Please enter a valid start date.", 
+    "Total": "Total", 
+    "users.Confirm_Password": "Confirm Password", 
+    "embed_this_listing": "Embed This Listing.", 
+    "airlock.photo_id_verification.title": "Photo Id Verification", 
+    "copy_html": "Copy HTML", 
+    "see_all_n_photos": "See all %{num_photos} photos", 
+    "B&Bs in city": "B&Bs in %{city}", 
+    "interactionContacted": "You contacted them on %{date}", 
+    "same_address": "Same Address", 
+    "shared.Ask the Community": "Ask the Community", 
+    "Contact Host": "Contact Host", 
+    "number_of_guests": "Number of guests", 
+    "show_original_description": "Show original description", 
+    "ml.preview.your space is unlisted with list your space link": "Your space is unlisted. %{link_begin}List your space%{link_end}.", 
+    "Please enter a valid date range": "Please enter a valid date range.", 
+    "Cabin Rentals in city": "Cabin Rentals in %{city}", 
+    "interactionReceived": "You received a reply on %{date}", 
+    "Service fee": "Service fee", 
+    "Mondays": "Mondays", 
+    "shared.Remove": "Remove", 
+    "completeBooking": "Complete Booking", 
+    "create_new_wish_list": "Create New Wish List", 
+    "airlock.password_reset.response.confirm_new_password": "Confirm New Password", 
+    "Report, as in report a listing": "Report", 
+    "Cleaning fee": "Cleaning fee", 
+    "notifications.Additional Unread Messages Last Week": "You have %{smart_count} additional unread message from the last week.||||You have %{smart_count} additional unread messages from the last week.", 
+    "field_guide.cant_find_what_youre_looking_for": "Can\u2019t find what you're looking for?", 
+    "airlock.Continue": "Continue", 
+    "home": "Home", 
+    "wl_modal.start_a_wish_list": "Start a Wish List", 
+    "datepicker_updated_years_ago": "Updated %{smart_count} year ago |||| Updated %{smart_count} years ago", 
+    "Villas in city": "Villas in %{city}", 
+    "simple_view_count_day": "%{number_of_people} viewed %{user}'s place today", 
+    "airlock.photo_id_verification.option_selection.description": "When you stay in an Airbnb, you\u2019re staying in someone\u2019s home. Scanning your government ID helps your host feel more comfortable sharing their personal space.", 
+    "passport.verify_identity": "Verify Your ID", 
+    "city Boat Rentals": "%{city} Boat Rentals", 
+    "review_helpful_count_thousand": "%{number}k", 
+    "fuzzy listing tooltip": "The listing is located in this area. When you book, you'll receive the exact address.", 
+    "Cabins for Rent in city": "Cabins for Rent in %{city}", 
+    "ml.preview.edit_preview": "Edit Listing", 
+    "shared.View Dashboard": "View Dashboard", 
+    "simple_view_count_week": "%{number_of_people} viewed %{user}'s place this week", 
+    "inbox": "Inbox", 
+    "datepicker_min_nights": "%{smart_count} night minimum stay |||| %{smart_count} night minimum stay", 
+    "nothing_here_yet": "Nothing Here Yet.", 
+    "instant_book_tooltip": "Book Instantly", 
+    "profile_pic_uploader.choose_other": "Choose Other", 
+    "profile_pic_upsell.upload_a_photo": "Upload a Photo", 
+    "airlock.phone_verification.response.invalid": "Looks like you entered the code incorrectly.", 
+    "datepicker_updated_months_ago": "Updated %{smart_count} month ago |||| Updated %{smart_count} months ago", 
+    "review_helpful_count_million": "%{number}m", 
+    "save_to_wish_list": "Save to Wish List", 
+    "Sundays": "Sundays", 
+    "Complete dates": "Please enter your check-in and check-out dates before messaging the host.", 
+    "wl_modal.create": "Create", 
+    "progress_indicator_caption": "%{numerator}/%{denominator}: %{caption}", 
+    "notifications.Read All Messages": "No new messages. You\u2019re all caught up!", 
+    "wl_modal.post_to_facebook": "Post to Facebook", 
+    "refresh_list": "Refresh List", 
+    "log_in": "Log In", 
+    "messaging.start_your_message": "Start your message...", 
+    "airlock.phone_verification.listing_activate.option_selection.title": "We need you to confirm this change.", 
+    "wl_modal.done": "Done", 
+    "search_tooltip_instant_book_faster_booking": "Look for the lightning bolt for faster booking", 
+    "Host's place will get booked for these dates.": "%{user}'s place will get booked for these dates.", 
+    "airlock.account_disabled.introduction.description": "To restore access, send an email to account.disabled@airbnb.com from an email address associated with your Airbnb account.", 
+    "airlock.phone_verification.option_selection.title": "Help us keep your account secure.", 
+    "profile_pic_upsell.complete_your_profile": "Complete Your Profile", 
+    "shared.save": "Save", 
+    "field_guide.welcome_how_can_we_help": "Welcome! How can we help?", 
+    "shared.Notifications": "Notifications", 
+    "wl_modal.make_a_new": "Make a new wish list...", 
+    "alerts": "Alerts", 
+    "Fridays": "Fridays", 
+    "Password": "Password", 
+    "profile_pic_uploader.is_this_you": "How Does This Look?", 
+    "multi_messaging.dont_stop_now_keep_contacting": "Don't stop now &mdash; keep contacting other listings.", 
+    "city Cabin Rentals": "%{city} Cabin Rentals", 
+    "messaging.test_inquiry.message": "This is a test inquiry from your mentor, %{first_name}. When you receive a real booking inquiry, it will look like this. Successful hosts\u2014like Superhosts\u2014usually respond to these inquiries within 24 hours.\nWhen you get messages from your guests, pre-approving can help secure the booking. You can practice this feature by pre-approving this test inquiry.", 
+    "profile_pic_uploader.make sure your face is visible": "Make sure your face is clearly visible in the photo.", 
+    "messaging.tell [name] a little about yourself": "Tell %{first_name} a little about yourself", 
+    "city House Boat Rentals": "%{city} House Boat Rentals", 
+    "wl_modal.create_new": "Create new", 
+    "airlock.success.Thanks": "Thanks %{first_name}"
+  }, 
+  "_bootstrap-user-attr-cookies": {
+    "user_attributes": {
+      "name": "_user_attributes"
+    }, 
+    "flags": {
+      "name": "flags", 
+      "value": {
+        "has_dates": 4096, 
+        "is_business_travel_manager": 2097152, 
+        "erf_override": 512, 
+        "should_drop_pellet": 262144, 
+        "should_drop_sift_pellet": 268435456, 
+        "should_show_host_header": 16777216, 
+        "update_cached": 64, 
+        "is_active_host": 1048576, 
+        "search_help_dropdown": 2048, 
+        "debugging_mode": 4194304, 
+        "has_search": 1024, 
+        "can_see_groups": 536870912, 
+        "og_publish": 16, 
+        "has_wishlisted": 32, 
+        "can_see_meetups": 134217728, 
+        "has_verified_phone": 1073741824, 
+        "has_profile_pic": 2147483648, 
+        "has_been_host": 131072, 
+        "facebook_connected": 256, 
+        "revert_to_admin": 128, 
+        "can_send_profile_messages": 32768, 
+        "is_host_referral_nav_bar_link_enabled": 8388608, 
+        "is_vr_platform_powered_host": 67108864, 
+        "just_logged_in": 65536, 
+        "can_see_community": 2, 
+        "field_guide_preload": 524288
+      }
+    }, 
+    "roles": {
+      "name": "roles", 
+      "value": {
+        "is_content_manager": 1048576, 
+        "is_stats_admin": 16777216
+      }
+    }
+  }, 
+  "_bootstrap-erf": {
+    "notifications_iteration_v3": {
+      "buckets": 5, 
+      "hashing_key": "notifications_iteration_v3", 
+      "percent_exposed": 100, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "control_7_days_with_row"
+        }, 
+        {
+          "buckets": null, 
+          "name": "control_with_row"
+        }, 
+        {
+          "buckets": null, 
+          "name": "recent_7_days_with_row"
+        }, 
+        {
+          "buckets": null, 
+          "name": "recent_with_row"
+        }
+      ], 
+      "subject": "user"
+    }, 
+    "px_cleaning_fee_tooltip": {
+      "buckets": 2, 
+      "hashing_key": "px_cleaning_fee_tooltip", 
+      "percent_exposed": 100, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "show"
+        }
+      ], 
+      "subject": "bev"
+    }, 
+    "p3_long_stay_price_breakdown_v3": {
+      "buckets": 2, 
+      "hashing_key": "p3_long_stay_price_breakdown_v3", 
+      "percent_exposed": 100, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "inline"
+        }, 
+        {
+          "buckets": null, 
+          "name": "tooltip"
+        }
+      ], 
+      "subject": "bev"
+    }, 
+    "p3_review_search": {
+      "buckets": 2, 
+      "hashing_key": "p3_review_search", 
+      "percent_exposed": 100, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "treatment"
+        }
+      ], 
+      "subject": "bev"
+    }, 
+    "inspectlet_on_guest": {
+      "buckets": 2, 
+      "hashing_key": "inspectlet_on_guest", 
+      "percent_exposed": 1, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "inspectlet_active"
+        }
+      ], 
+      "subject": "bev"
+    }, 
+    "global_tweaked_recently_viewed": {
+      "buckets": 2, 
+      "hashing_key": "global_tweaked_recently_viewed", 
+      "percent_exposed": 0, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "global_recently_viewed"
+        }
+      ], 
+      "subject": "bev"
+    }, 
+    "wechat_web_social_share": {
+      "buckets": 2, 
+      "hashing_key": "wechat_web_social_share", 
+      "percent_exposed": 100, 
+      "treatments": [
+        {
+          "buckets": null, 
+          "name": "control"
+        }, 
+        {
+          "buckets": null, 
+          "name": "wechat_button"
+        }
+      ], 
+      "subject": "bev"
+    }
+  }, 
+  "_bootstrap-neighborhood_card": {
+    "neighborhood_breadcrumb_details": [
+      {
+        "link_route": "/s/Guy-Place-San-Francisco--CA", 
+        "link_text": "Guy Place,", 
+        "link": "<span>Guy Place,</span>", 
+        "search_text": "Guy Place San Francisco, CA"
+      }, 
+      {
+        "link_route": "/s/San-Francisco--CA", 
+        "link_text": "San Francisco,", 
+        "link": "<span>San Francisco,</span>", 
+        "search_text": "San Francisco, CA"
+      }, 
+      {
+        "link_route": "/s/California--United-States", 
+        "link_text": "California,", 
+        "link": "<span>California,</span>", 
+        "search_text": "California, United States"
+      }, 
+      {
+        "link_route": "/s/United-States", 
+        "link_text": "United States", 
+        "link": "<span>United States</span>", 
+        "search_text": "United States"
+      }
+    ], 
+    "place_recommendations": [], 
+    "hosting": {
+      "offset_lng": -122.39521880539506, 
+      "id": 7476075, 
+      "offset_lat": 37.78582452755386
+    }, 
+    "user_info": {
+      "user_image": "<img alt=\"Michael\" data-pin-nopin=\"true\" height=\"90\" src=\"https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=225:*&amp;output-format=jpg&amp;output-quality=70\" title=\"Michael\" width=\"90\" />"
+    }, 
+    "map_url": "https://maps.googleapis.com/maps/api/staticmap?markers=%2C&size&zoom=14", 
+    "neighborhood_basic_info": {
+      "neighborhood": "South Beach", 
+      "id": 480
+    }, 
+    "neighborhood_localized_name": "South Beach"
+  }, 
+  "_bootstrap-map_provider": "google", 
+  "_bootstrap-china_typeahead_data": "https://a2.muscache.com/airbnb/static/china_typeahead_data-997d892fc4a8970a30cc50531394b714.json", 
+  "_bootstrap-room_options": {
+    "airEventData": {
+      "location_rating": 10, 
+      "person_capacity": 2, 
+      "response_time_shown": 1624.0, 
+      "reponse_rate_shown": 1.0, 
+      "value_rating": 10, 
+      "visible_review_count": 5, 
+      "amenities": [
+        1, 
+        3, 
+        4, 
+        8, 
+        21, 
+        28, 
+        30, 
+        33, 
+        34, 
+        35, 
+        40, 
+        41
+      ], 
+      "cancel_policy": 4, 
+      "instant_book_possible": false, 
+      "cleanliness_rating": 10, 
+      "friend_count": 0, 
+      "utc_offset": -28800, 
+      "price": 189.0, 
+      "time_since_last_calendar_update": 1436632.753140522, 
+      "guest_satisfaction_overall": 95, 
+      "checkin_rating": 10, 
+      "picture_count": 19, 
+      "communication_rating": 10, 
+      "bed_type": "Real Bed", 
+      "accuracy_rating": 10, 
+      "room_type": "Entire home/apt", 
+      "hosting_id": 7476075, 
+      "saved_to_wishlist_count": 197, 
+      "page": "p3"
+    }, 
+    "hostProfilePicUrl": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+    "hostId": 4261846, 
+    "locale": "en", 
+    "photoData": [
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302596/bc0de5f3_original.jpg?aki_policy=xx_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302596/bc0de5f3_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "1/19: Whole sunny Soma loft", 
+        "first": true
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302620/5cc28bbe_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302620/5cc28bbe_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "2/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302642/02496738_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302642/02496738_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "3/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302658/7e6bdaf3_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302658/7e6bdaf3_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "4/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302683/d1383d5a_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302683/d1383d5a_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "5/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/104302702/e374befa_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/104302702/e374befa_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "6/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/104302719/1e6a2b13_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/104302719/1e6a2b13_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "7/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302732/7bfa131e_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302732/7bfa131e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "8/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302743/5639945c_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302743/5639945c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "9/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302754/4c8f8fa9_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302754/4c8f8fa9_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "10/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/104302768/97cc7fe8_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/104302768/97cc7fe8_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "11/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/104302794/92197885_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/104302794/92197885_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "12/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302810/1a887b9c_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302810/1a887b9c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "13/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/104302821/1aea98a8_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/104302821/1aea98a8_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "14/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a1.muscache.com/im/pictures/104302838/68409da0_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a1.muscache.com/ac/pictures/104302838/68409da0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "15/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302850/e3d57920_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302850/e3d57920_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "16/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302868/e937446f_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302868/e937446f_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "17/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a0.muscache.com/im/pictures/104302885/cc0e971e_original.jpg?aki_policy=x_large", 
+        "caption": "Whole sunny Soma loft", 
+        "thumbnail_url": "https://a0.muscache.com/ac/pictures/104302885/cc0e971e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": true, 
+        "caption_formatted": "18/19: Whole sunny Soma loft", 
+        "first": false
+      }, 
+      {
+        "url": "https://a2.muscache.com/im/pictures/100683120/2321b87b_original.jpg?aki_policy=x_large", 
+        "caption": "bathroom", 
+        "thumbnail_url": "https://a2.muscache.com/ac/pictures/100683120/2321b87b_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70", 
+        "professional": false, 
+        "caption_formatted": "19/19: bathroom", 
+        "first": false
+      }
+    ], 
+    "isMonthly": false, 
+    "minNights": 3, 
+    "hostingId": 7476075, 
+    "hostFirstName": "Michael", 
+    "calendarLastUpdated": "2015-11-13", 
+    "numPhotos": 19, 
+    "nightly_price": "$189", 
+    "videoProfile": false, 
+    "ajaxLwlbContact": "/rooms/ajax_lwlb_contact/7476075", 
+    "staggered_price": "$5292"
+  }, 
+  "_bootstrap-embed": {
+    "airbnb_jssdk_url": "https://www.airbnb.com/embeddable/airbnb_jssdk"
+  }, 
+  "_bootstrap-admin_listing": {
+    "id": 7476075
+  }, 
+  "_bootstrap-listing": {
+    "listing_url": "https://www.airbnb.com/rooms/7476075", 
+    "property_type_slug": "loft", 
+    "city_url": "https://www.airbnb.com/s/San-Francisco--CA", 
+    "full_address": "San Francisco, CA, United States", 
+    "listing": {
+      "price_interface": {
+        "monthly_price": null, 
+        "cancellation_policy": {
+          "value": "Moderate", 
+          "label": "Cancellation:", 
+          "label_url": null, 
+          "value_url": "/home/cancellation_policies#moderate", 
+          "id": "cancellation-policy", 
+          "attribute_url": null
+        }, 
+        "extra_people": {
+          "value": "No Charge", 
+          "label": "Extra people:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        "weekly_price": null, 
+        "cleaning_fee": {
+          "value": "$50", 
+          "label": "Cleaning Fee:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        "security_deposit": {
+          "value": "$250", 
+          "label": "Security Deposit:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        "permit": {
+          "value": "STR-0000650", 
+          "label": "Permit / Tax ID:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        "weekly_discount": {
+          "value": "9%", 
+          "label": "Weekly discount:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        "monthly_discount": {
+          "value": "0%", 
+          "label": "Monthly discount:", 
+          "label_url": "/s/San-Francisco--CA?sublets=monthly", 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }
+      }, 
+      "person_capacity": 2, 
+      "review_details_interface": {
+        "display_review_summary": true, 
+        "review_summary": [
+          {
+            "value": 10, 
+            "label": "Accuracy"
+          }, 
+          {
+            "value": 10, 
+            "label": "Communication"
+          }, 
+          {
+            "value": 10, 
+            "label": "Cleanliness"
+          }, 
+          {
+            "value": 10, 
+            "label": "Location"
+          }, 
+          {
+            "value": 10, 
+            "label": "Check In"
+          }, 
+          {
+            "value": 10, 
+            "label": "Value"
+          }
+        ], 
+        "review_count": 5, 
+        "host_other_property_review_count": 18, 
+        "review_score": 95
+      }, 
+      "calendar_updated_at": "2 weeks ago", 
+      "property_type_id": 35, 
+      "id": 7476075, 
+      "city": "San Francisco", 
+      "localized_minimum_nights_description": "<strong>3 nights</strong> minimum stay", 
+      "localized_description": "This high-end Loft is 742 sq feet and has a fully equipped kitchen with new appliances.\n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nSAN FRANCISCO SHORT-TERM RESIDENTIAL RENTAL REGISTRATION NUMBER: STR-(PHONE NUMBER HIDDEN)\n\nPossession of a San Francisco Short-Term Rental Registration Certificate certifies that the registration certificate holder has agreed to comply with the terms of the San Francisco Short-Term Residential Rental Ordinance (San Francisco Administrative Code 41A).  This ordinance does not require an inspection of the unit by the City for potential Building, Housing, Fire, or other Code violations.\n\nThis high-end Loft is 742 sq feet, has a twin sized sofa bed, also has a beautiful King sized Casper bed, and has a fully equipped kitchen with new appliances. \n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nThere is no parking in the building, but dozens of metered parking right out front that are fairly cheap ($0.50 to $1.50/hr depending on time of day) and free overnight. If you don't want to worry about meters, there is a lot across the street that is only $10 per night (vs. $40-60/night for hotels in our neighborhood).\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It's just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nTransbay/Greyhound bus terminal = 5 min walk \nMontgomery BART = 8 min walk \nFerry building = 15 min walk \nCalTrain = 20 min walk\n\nGuests can take the airport BART to the Montgomery BART station. From there, they can either walk about 8-10mins, or take the 12 bus line from 2nd St & Stevenson to 2nd St & Folsom.\n\nThere's usually some free evening street parking available in the neighborhood from 6pm - 9am because it's a bit tucked away. It's also close to many Zip Car locations. It's easily freeway-accessible to the Eastbay, the Penninsula, and the Southbay.\n\nYou will have full access to the loft unit.  This includes access to the 42 inch television with local channels on the Tivo.\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It's just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nIt's only minutes walk from public transportation -- Muni, BART, and CalTrain. Parking can be difficult during the day, but there's usually some free evening street parking available in the neighborhood because it's a bit tucked away. It's easily freeway-accessible to the Eastbay, and the Southbay.\n\nNo smoking, no drugs, no pets, building quiet hours after 10pm (typical of most shared buildings in this area), no major gatherings/parties in the loft (the odd guest is okay).", 
+      "description_locale": "en", 
+      "listing_rooms": [], 
+      "visible_review_count": 5, 
+      "house_rules": "Generally speaking, check out time is noon and check in time is 4pm, unless there are no guests coming before/after and there is flexibility to move it (which we are happy to do if that is the case!).", 
+      "sorted_reviews": [
+        {
+          "reviewee": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Michael", 
+            "profile_path": "/users/show/4261846", 
+            "id": 4261846
+          }, 
+          "response": null, 
+          "localized_date": "November 2015", 
+          "comments": "Very easy to communicate with the host. The apartment was clean and as described on the ad. Even though it's in a busy area, the apartment is located on a side street with almost no traffic. The location was great for my conference at the Moscone centre. Most of the sights are about a 1/2 to 1 miles away. Very safe building.", 
+          "reviewer": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a0.muscache.com/ac/users/7260527/profile_pic/1385347913/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Louis-Pierre", 
+            "profile_path": "/users/show/7260527", 
+            "id": 7260527
+          }, 
+          "id": 53682673
+        }, 
+        {
+          "reviewee": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Michael", 
+            "profile_path": "/users/show/4261846", 
+            "id": 4261846
+          }, 
+          "response": null, 
+          "localized_date": "September 2015", 
+          "comments": "Great space in San Fran! The loft is very nice, clean and in a great area. Building feels very safe. Michael was very accommodating and checked in during our stay, which was nice! ", 
+          "reviewer": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a1.muscache.com/ac/users/42316516/profile_pic/1440374383/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Sara", 
+            "profile_path": "/users/show/42316516", 
+            "id": 42316516
+          }, 
+          "id": 46789308
+        }, 
+        {
+          "reviewee": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Michael", 
+            "profile_path": "/users/show/4261846", 
+            "id": 4261846
+          }, 
+          "response": null, 
+          "localized_date": "September 2015", 
+          "comments": "I had a great stay in Michael's loft. The location was very convenient to SoMa and the Financial District and the loft was full of great natural light.", 
+          "reviewer": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a1.muscache.com/ac/users/42532543/profile_pic/1443019826/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Philip", 
+            "profile_path": "/users/show/42532543", 
+            "id": 42532543
+          }, 
+          "id": 46422275
+        }, 
+        {
+          "reviewee": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Michael", 
+            "profile_path": "/users/show/4261846", 
+            "id": 4261846
+          }, 
+          "response": null, 
+          "localized_date": "September 2015", 
+          "comments": "This place was fantastic. Clean and exactly what I expected. Would definitely stay here again!", 
+          "reviewer": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a0.muscache.com/ac/users/6378161/profile_pic/1368650732/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Bentley", 
+            "profile_path": "/users/show/6378161", 
+            "id": 6378161
+          }, 
+          "id": 45417911
+        }, 
+        {
+          "reviewee": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Michael", 
+            "profile_path": "/users/show/4261846", 
+            "id": 4261846
+          }, 
+          "response": null, 
+          "localized_date": "August 2015", 
+          "comments": "The host canceled this reservation 28 days before arrival. This is an automated posting.", 
+          "reviewer": {
+            "last_name": "prune_me", 
+            "profile_pic_path": "https://a1.muscache.com/ac/users/5274552/profile_pic/1364005774/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+            "is_superhost": false, 
+            "host_name": "Rob", 
+            "profile_path": "/users/show/5274552", 
+            "id": 5274552
+          }, 
+          "id": 43079481
+        }
+      ], 
+      "description": "This high-end Loft is 742 sq feet and has a fully equipped kitchen with new appliances.\n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nSAN FRANCISCO SHORT-TERM RESIDENTIAL RENTAL REGISTRATION NUMBER: STR-(PHONE NUMBER HIDDEN)\n\nPossession of a San Francisco Short-Term Rental Registration Certificate certifies that the registration certificate holder has agreed to comply with the terms of the San Francisco Short-Term Residential Rental Ordinance (San Francisco Administrative Code 41A).  This ordinance does not require an inspection of the unit by the City for potential Building, Housing, Fire, or other Code violations.\n\nThis high-end Loft is 742 sq feet, has a twin sized sofa bed, also has a beautiful King sized Casper bed, and has a fully equipped kitchen with new appliances. \n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nThere is no parking in the building, but dozens of metered parking right out front that are fairly cheap ($0.50 to $1.50/hr depending on time of day) and free overnight. If you don't want to worry about meters, there is a lot across the street that is only $10 per night (vs. $40-60/night for hotels in our neighborhood).\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It's just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nTransbay/Greyhound bus terminal = 5 min walk \nMontgomery BART = 8 min walk \nFerry building = 15 min walk \nCalTrain = 20 min walk\n\nGuests can take the airport BART to the Montgomery BART station. From there, they can either walk about 8-10mins, or take the 12 bus line from 2nd St & Stevenson to 2nd St & Folsom.\n\nThere's usually some free evening street parking available in the neighborhood from 6pm - 9am because it's a bit tucked away. It's also close to many Zip Car locations. It's easily freeway-accessible to the Eastbay, the Penninsula, and the Southbay.\n\nYou will have full access to the loft unit.  This includes access to the 42 inch television with local channels on the Tivo.\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It's just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nIt's only minutes walk from public transportation -- Muni, BART, and CalTrain. Parking can be difficult during the day, but there's usually some free evening street parking available in the neighborhood because it's a bit tucked away. It's easily freeway-accessible to the Eastbay, and the Southbay.\n\nNo smoking, no drugs, no pets, building quiet hours after 10pm (typical of most shared buildings in this area), no major gatherings/parties in the loft (the odd guest is okay).", 
+      "space_interface": [
+        {
+          "value": "2", 
+          "label": "Accommodates:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        {
+          "value": "1", 
+          "label": "Bathrooms:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        {
+          "value": "1", 
+          "label": "Bedrooms:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        {
+          "value": "2", 
+          "label": "Beds:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }, 
+        {
+          "value": "Loft", 
+          "label": "Property type:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": "/s/San-Francisco--CA?type=loft"
+        }, 
+        {
+          "value": "Entire home/apt", 
+          "label": "Room type:", 
+          "label_url": null, 
+          "value_url": null, 
+          "id": null, 
+          "attribute_url": null
+        }
+      ], 
+      "should_show_description_translate_button": false, 
+      "photos": [
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302596/bc0de5f3_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302596/bc0de5f3_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429337, 
+          "caption": "", 
+          "sort_order": 1, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302596/bc0de5f3_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302620/5cc28bbe_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302620/5cc28bbe_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429338, 
+          "caption": "", 
+          "sort_order": 2, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302620/5cc28bbe_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302642/02496738_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302642/02496738_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429339, 
+          "caption": "", 
+          "sort_order": 3, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302642/02496738_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302658/7e6bdaf3_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302658/7e6bdaf3_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429340, 
+          "caption": "", 
+          "sort_order": 4, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302658/7e6bdaf3_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302683/d1383d5a_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302683/d1383d5a_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429341, 
+          "caption": "", 
+          "sort_order": 5, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302683/d1383d5a_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/104302702/e374befa_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/104302702/e374befa_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429342, 
+          "caption": "", 
+          "sort_order": 6, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/104302702/e374befa_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/104302719/1e6a2b13_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/104302719/1e6a2b13_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429343, 
+          "caption": "", 
+          "sort_order": 7, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/104302719/1e6a2b13_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302732/7bfa131e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302732/7bfa131e_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429344, 
+          "caption": "", 
+          "sort_order": 8, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302732/7bfa131e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302743/5639945c_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302743/5639945c_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429345, 
+          "caption": "", 
+          "sort_order": 9, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302743/5639945c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302754/4c8f8fa9_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302754/4c8f8fa9_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429346, 
+          "caption": "", 
+          "sort_order": 10, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302754/4c8f8fa9_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/104302768/97cc7fe8_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/104302768/97cc7fe8_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429347, 
+          "caption": "", 
+          "sort_order": 11, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/104302768/97cc7fe8_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/104302794/92197885_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/104302794/92197885_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429348, 
+          "caption": "", 
+          "sort_order": 12, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/104302794/92197885_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302810/1a887b9c_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302810/1a887b9c_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429349, 
+          "caption": "", 
+          "sort_order": 13, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302810/1a887b9c_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/104302821/1aea98a8_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/104302821/1aea98a8_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429350, 
+          "caption": "", 
+          "sort_order": 14, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/104302821/1aea98a8_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a1.muscache.com/ac/pictures/104302838/68409da0_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a1.muscache.com/im/pictures/104302838/68409da0_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429351, 
+          "caption": "", 
+          "sort_order": 15, 
+          "thumbnail": "https://a1.muscache.com/ac/pictures/104302838/68409da0_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302850/e3d57920_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302850/e3d57920_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429352, 
+          "caption": "", 
+          "sort_order": 16, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302850/e3d57920_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302868/e937446f_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302868/e937446f_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429353, 
+          "caption": "", 
+          "sort_order": 17, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302868/e937446f_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a0.muscache.com/ac/pictures/104302885/cc0e971e_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a0.muscache.com/im/pictures/104302885/cc0e971e_original.jpg?aki_policy=x_large", 
+          "is_professional": true, 
+          "id": 82429354, 
+          "caption": "", 
+          "sort_order": 18, 
+          "thumbnail": "https://a0.muscache.com/ac/pictures/104302885/cc0e971e_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }, 
+        {
+          "picture": "https://a2.muscache.com/ac/pictures/100683120/2321b87b_original.jpg?interpolation=lanczos-none&size=large_cover&output-format=jpg&output-quality=70", 
+          "xl_picture": "https://a2.muscache.com/im/pictures/100683120/2321b87b_original.jpg?aki_policy=x_large", 
+          "is_professional": false, 
+          "id": 82429355, 
+          "caption": "bathroom", 
+          "sort_order": 19, 
+          "thumbnail": "https://a2.muscache.com/ac/pictures/100683120/2321b87b_original.jpg?interpolation=lanczos-none&size=small&output-format=jpg&output-quality=70"
+        }
+      ], 
+      "xl_picture_url": "https://a1.muscache.com/ac/pictures/104302596/bc0de5f3_original.jpg?interpolation=lanczos-none&size=x_large_cover&output-format=jpg&output-quality=70", 
+      "listing_amenities": [
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Kitchen", 
+          "is_present": true, 
+          "tooltip": "Space where guests can cook their own meals", 
+          "is_business_ready_feature": false, 
+          "id": 8, 
+          "icon": "icon-meal"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Internet", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 3, 
+          "icon": "icon-internet"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "TV", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 1, 
+          "icon": "icon-tv"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Essentials", 
+          "is_present": true, 
+          "tooltip": "Towels, bed sheets, soap, and toilet paper", 
+          "is_business_ready_feature": false, 
+          "id": 40, 
+          "icon": "icon-essentials"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Shampoo", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 41, 
+          "icon": "icon-shampoo"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Heating", 
+          "is_present": true, 
+          "tooltip": "Central heating or a heater in the listing", 
+          "is_business_ready_feature": false, 
+          "id": 30, 
+          "icon": "icon-heating"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Air Conditioning", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 5, 
+          "icon": "icon-air-conditioning"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Washer", 
+          "is_present": true, 
+          "tooltip": "In the building, free or for a fee", 
+          "is_business_ready_feature": false, 
+          "id": 33, 
+          "icon": "icon-washer"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Dryer", 
+          "is_present": true, 
+          "tooltip": "In the building, free or for a fee", 
+          "is_business_ready_feature": false, 
+          "id": 34, 
+          "icon": "icon-dryer"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Free Parking on Premises", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 9, 
+          "icon": "icon-parking"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Wireless Internet", 
+          "is_present": true, 
+          "tooltip": "Continuous access in the listing", 
+          "is_business_ready_feature": false, 
+          "id": 4, 
+          "icon": "icon-wifi"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Cable TV", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 2, 
+          "icon": "icon-desktop"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Breakfast", 
+          "is_present": false, 
+          "tooltip": "Breakfast is provided.", 
+          "is_business_ready_feature": false, 
+          "id": 16, 
+          "icon": "icon-cup"
+        }, 
+        {
+          "explore_url": "/explore/san-francisco--ca/loft/pet-friendly", 
+          "is_safety_feature": false, 
+          "name": "Pets Allowed", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 12, 
+          "icon": "icon-paw"
+        }, 
+        {
+          "explore_url": "/explore/san-francisco--ca/loft/family-friendly", 
+          "is_safety_feature": false, 
+          "name": "Family/Kid Friendly", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 31, 
+          "icon": "icon-family"
+        }, 
+        {
+          "explore_url": "/s/san-francisco--ca?amenity=event-space", 
+          "is_safety_feature": false, 
+          "name": "Suitable for Events", 
+          "is_present": false, 
+          "tooltip": "The listing can accommodate a gathering of 25 or more attendees", 
+          "is_business_ready_feature": false, 
+          "id": 32, 
+          "icon": "icon-balloons"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Smoking Allowed", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 11, 
+          "icon": "icon-smoking"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Wheelchair Accessible", 
+          "is_present": false, 
+          "tooltip": "Easy access to the building and listing for guests in wheelchairs", 
+          "is_business_ready_feature": false, 
+          "id": 6, 
+          "icon": "icon-accessible"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Elevator in Building", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 21, 
+          "icon": "icon-elevator"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Indoor Fireplace", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 27, 
+          "icon": "icon-fireplace"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Buzzer/Wireless Intercom", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 28, 
+          "icon": "icon-intercom"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Doorman", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 14, 
+          "icon": "icon-doorman"
+        }, 
+        {
+          "explore_url": "/explore/san-francisco--ca/loft/pool", 
+          "is_safety_feature": false, 
+          "name": "Pool", 
+          "is_present": false, 
+          "tooltip": "Private or Shared", 
+          "is_business_ready_feature": false, 
+          "id": 7, 
+          "icon": "icon-pool"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Hot Tub", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 25, 
+          "icon": "icon-hot-tub"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Gym", 
+          "is_present": false, 
+          "tooltip": "Free, in the building or nearby", 
+          "is_business_ready_feature": false, 
+          "id": 15, 
+          "icon": "icon-gym"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "24-Hour Check-in", 
+          "is_present": false, 
+          "tooltip": "Lockbox, keyless entry, buzzer, or someone available at any time", 
+          "is_business_ready_feature": true, 
+          "id": 43, 
+          "icon": "icon-time"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Hangers", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": true, 
+          "id": 44, 
+          "icon": "icon-hangers"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Iron", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": true, 
+          "id": 46, 
+          "icon": "icon-iron"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Hair Dryer", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": true, 
+          "id": 45, 
+          "icon": "icon-hair-dryer"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": false, 
+          "name": "Laptop Friendly Workspace", 
+          "is_present": false, 
+          "tooltip": "A table or desk with space for a laptop and a chair that\u2019s comfortable to work in", 
+          "is_business_ready_feature": true, 
+          "id": 47, 
+          "icon": "icon-laptop"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": true, 
+          "name": "Smoke Detector", 
+          "is_present": true, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 35, 
+          "icon": "icon-ok"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": true, 
+          "name": "Carbon Monoxide Detector", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 36, 
+          "icon": "icon-ok"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": true, 
+          "name": "First Aid Kit", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 37, 
+          "icon": "icon-ok"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": true, 
+          "name": "Safety Card", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 38, 
+          "icon": "icon-ok"
+        }, 
+        {
+          "explore_url": null, 
+          "is_safety_feature": true, 
+          "name": "Fire Extinguisher", 
+          "is_present": false, 
+          "tooltip": null, 
+          "is_business_ready_feature": false, 
+          "id": 39, 
+          "icon": "icon-ok"
+        }
+      ], 
+      "should_show_complex_datepicker_prompt": false, 
+      "star_rating": 5.0, 
+      "name": "Whole sunny Soma loft", 
+      "localized_sectioned_description": {
+        "interaction": null, 
+        "description": "This high-end Loft is 742 sq feet and has a fully equipped kitchen with new appliances.\n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nSAN FRANCISCO SHORT-TERM RESIDENTIAL RENTAL REGISTRATION NUMBER: STR(phone number hidden)\n\nPossession of a San Francisco Short-Term Rental Registration Certificate certifies that the registration certificate holder has agreed to comply with the terms of the San Francisco Short-Term Residential Rental Ordinance (San Francisco Administrative Code 41A).  This ordinance does not require an inspection of the unit by the City for potential Building, Housing, Fire, or other Code violations.\n\nThis high-end Loft is 742 sq feet, has a twin sized sofa bed, also has a beautiful King sized Casper bed, and has a fully equipped kitchen with new appliances. \n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nThere is no parking in the building, but dozens of metered parking right out front that are fairly cheap ($0.50 to $1.50/hr depending on time of day) and free overnight. If you don't want to worry about meters, there is a lot across the street that is only $10 per night (vs. $40-60/night for hotels in our neighborhood).\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It\u2019s just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nTransbay/Greyhound bus terminal = 5 min walk \nMontgomery BART = 8 min walk \nFerry building = 15 min walk \nCalTrain = 20 min walk\n\nGuests can take the airport BART to the Montgomery BART station. From there, they can either walk about 8-10mins, or take the 12 bus line from 2nd St & Stevenson to 2nd St & Folsom.\n\nThere's usually some free evening street parking available in the neighborhood from 6pm - 9am because it\u2019s a bit tucked away. It's also close to many Zip Car locations. It\u2019s easily freeway-accessible to the Eastbay, the Penninsula, and the Southbay.\n\nYou will have full access to the loft unit.  This includes access to the 42 inch television with local channels on the Tivo.\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It\u2019s just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nIt\u2019s only minutes walk from public transportation -- Muni, BART, and CalTrain. Parking can be difficult during the day, but there's usually some free evening street parking available in the neighborhood because it\u2019s a bit tucked away. It\u2019s easily freeway-accessible to the Eastbay, and the Southbay.\n\nNo smoking, no drugs, no pets, building quiet hours after 10pm (typical of most shared buildings in this area), no major gatherings/parties in the loft (the odd guest is okay).", 
+        "space": "SAN FRANCISCO SHORT-TERM RESIDENTIAL RENTAL REGISTRATION NUMBER: STR(phone number hidden)\n\nPossession of a San Francisco Short-Term Rental Registration Certificate certifies that the registration certificate holder has agreed to comply with the terms of the San Francisco Short-Term Residential Rental Ordinance (San Francisco Administrative Code 41A).  This ordinance does not require an inspection of the unit by the City for potential Building, Housing, Fire, or other Code violations.\n\nThis high-end Loft is 742 sq feet, has a twin sized sofa bed, also has a beautiful King sized Casper bed, and has a fully equipped kitchen with new appliances. \n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!\n\nThere is no parking in the building, but dozens of metered parking right out front that are fairly cheap ($0.50 to $1.50/hr depending on time of day) and free overnight. If you don't want to worry about meters, there is a lot across the street that is only $10 per night (vs. $40-60/night for hotels in our neighborhood).\n\nSuper convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It\u2019s just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.\n\nTransbay/Greyhound bus terminal = 5 min walk \nMontgomery BART = 8 min walk \nFerry building = 15 min walk \nCalTrain = 20 min walk\n\nGuests can take the airport BART to the Montgomery BART station. From there, they can either walk about 8-10mins, or take the 12 bus line from 2nd St & Stevenson to 2nd St & Folsom.\n\nThere's usually some free evening street parking available in the neighborhood from 6pm - 9am because it\u2019s a bit tucked away. It's also close to many Zip Car locations. It\u2019s easily freeway-accessible to the Eastbay, the Penninsula, and the Southbay.", 
+        "locale": "en", 
+        "notes": "No smoking, no drugs, no pets, building quiet hours after 10pm (typical of most shared buildings in this area), no major gatherings/parties in the loft (the odd guest is okay).", 
+        "summary": "This high-end Loft is 742 sq feet and has a fully equipped kitchen with new appliances.\n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!", 
+        "access": "You will have full access to the loft unit.  This includes access to the 42 inch television with local channels on the Tivo.", 
+        "neighborhood_overview": "Super convenient to downtown and all modes of transportation. Extremely high walk rating...\n\nEverything is easily accessible: restaurants, museums, waterfront, shopping -- plus so much more this amazing city has to offer. It\u2019s just a short walk to Moscone Center, Union Square, the Embarcadero, Chinatown, North Beach, AT&T Park and all the nightlife of SoMa/Southbeach.\n\nBART, Transbay terminal, and CalTrain are all 5-20 mins walking distance.\n\nSouth Beach is also known as the second financial district. This means it is relatively quiet during evenings and weekends.", 
+        "house_rules": "Generally speaking, check out time is noon and check in time is 4pm, unless there are no guests coming before/after and there is flexibility to move it (which we are happy to do if that is the case!).", 
+        "transit": "It\u2019s only minutes walk from public transportation -- Muni, BART, and CalTrain. Parking can be difficult during the day, but there's usually some free evening street parking available in the neighborhood because it\u2019s a bit tucked away. It\u2019s easily freeway-accessible to the Eastbay, and the Southbay.", 
+        "name": "Whole sunny Soma loft"
+      }, 
+      "summary": "This high-end Loft is 742 sq feet and has a fully equipped kitchen with new appliances.\n\nWhether you are here for work or pleasure, you will be able to relax and enjoy your stay in a highly desirable and most convenient neighborhoods!", 
+      "min_nights": 3, 
+      "building_rules": null, 
+      "user": {
+        "profile_pic_path": "https://a2.muscache.com/ac/users/4261846/profile_pic/1354042684/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70", 
+        "is_superhost": false, 
+        "smart_name": "Michael", 
+        "host_name": "Michael", 
+        "profile_path": "/users/show/4261846", 
+        "id": 4261846
+      }
+    }
+  }, 
+  "_bootstrap-show-signup-garden": true, 
+  "_bootstrap-amex_checkout": {
+    "client_id": "5ca541ad-47b9-4b16-8045-2f4c6e830450", 
+    "env": "production", 
+    "client_key": "production_r29fkzj4_pfpfmbt48yh4ht8c"
+  }, 
+  "_bootstrap-owner_suspended": null, 
+  "_bootstrap-contact_host_image_paths": {
+    "verify_img_path": "https://a1.muscache.com/airbnb/static/page3/verify@2x-69b5862959b3f8d318ae78659f4b306c.png", 
+    "invite_friends_img_path": "https://a2.muscache.com/airbnb/static/page3/invite_friends-7d6c7d058ff6ca1801629d388a502540.png"
+  }, 
+  "_bootstrap-layout-init": {
+    "sift_key": "5d704de7e8", 
+    "pellet_id": "kfgn8s24", 
+    "deep_link": null, 
+    "airbnb_open_street_map_css_url": "https://a2.muscache.com/airbnb/static/vendor/mapbox-2.2.1.min-a07558eb5880b46eb56c91bc5f2dc13a.css", 
+    "language": "en", 
+    "tracking_context": {
+      "platform": "js", 
+      "req_uuid": "cb3ead73-faec-4879-9592-b0f502b3162a", 
+      "shardset": "a0,a1,a2", 
+      "source": "monorail", 
+      "controller": "rooms", 
+      "version": "c8577dc919d9ee60071e6456ea185ebdf1959880", 
+      "action": "show"
+    }, 
+    "locale": "en", 
+    "no_flash_alerts": null, 
+    "airbnb_open_street_map_js_url": "https://a1.muscache.com/airbnb/static/vendor/mapbox-2.2.1.min-9e935466a5b7f591326491247248298d.js", 
+    "google_maps_url": "https://maps.googleapis.com/maps/api/js?language=en&region=US&sensor=false&v=3.13&libraries=places&client=gme-airbnbinc&channel=monorail-prod", 
+    "canonical_host": "www.airbnb.com", 
+    "api_config": {
+      "baseUrl": "https://www.airbnb.com/api", 
+      "key": "d306zoyjsyarp7ifhu67rjxn52tv0t20"
+    }
+  }, 
+  "_bootstrap-trebuchet": {
+    "p3.hide_helpful_reviews_button": false, 
+    "decimal_star_rating": false, 
+    "p3.prioritize_similar_ib": true, 
+    "p3.show_review_search": true, 
+    "book_it_color_experiment_v2": true, 
+    "account_activation_flow": true
+  }, 
+  "_bootstrap-i18n-init": {
+    "currencies": {
+      "USD": {
+        "code_required": false, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "TWD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "IDR": {
+        "code_required": false, 
+        "symbol": "Rp", 
+        "options": null
+      }, 
+      "BGN": {
+        "code_required": false, 
+        "symbol": "&#1083;&#1074;", 
+        "options": {
+          "unicode_symbol": "\u043b\u0432"
+        }
+      }, 
+      "CRC": {
+        "code_required": false, 
+        "symbol": "&#8353;", 
+        "options": {
+          "unicode_symbol": "\u20a1"
+        }
+      }, 
+      "PEN": {
+        "code_required": false, 
+        "symbol": "&#83;&#47;&#46;", 
+        "options": {
+          "unicode_symbol": "S/."
+        }
+      }, 
+      "ILS": {
+        "code_required": false, 
+        "symbol": "&#8362;", 
+        "options": {
+          "unicode_symbol": "\u20aa"
+        }
+      }, 
+      "GBP": {
+        "code_required": false, 
+        "symbol": "&pound;", 
+        "options": {
+          "unicode_symbol": "\u00a3"
+        }
+      }, 
+      "DKK": {
+        "code_required": true, 
+        "symbol": "kr", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "explicit_currency_not_aesthetic": true
+        }
+      }, 
+      "CAD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "MXN": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "HUF": {
+        "code_required": false, 
+        "symbol": "Ft", 
+        "options": null
+      }, 
+      "VND": {
+        "code_required": false, 
+        "symbol": "&#8363;", 
+        "options": {
+          "unicode_symbol": "\u20ab"
+        }
+      }, 
+      "RON": {
+        "code_required": false, 
+        "symbol": "lei", 
+        "options": null
+      }, 
+      "MYR": {
+        "code_required": false, 
+        "symbol": "&#82;&#77;", 
+        "options": {
+          "unicode_symbol": "RM"
+        }
+      }, 
+      "UAH": {
+        "code_required": false, 
+        "symbol": "&#8372;", 
+        "options": {
+          "unicode_symbol": "\u20b4"
+        }
+      }, 
+      "SEK": {
+        "code_required": true, 
+        "symbol": "kr", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "explicit_currency_not_aesthetic": true
+        }
+      }, 
+      "SGD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "HKD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "AUD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "CHF": {
+        "code_required": false, 
+        "symbol": "CHF", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "hide_code_if_symbol_shown": true
+        }
+      }, 
+      "KRW": {
+        "code_required": false, 
+        "symbol": "&#8361;", 
+        "options": {
+          "unicode_symbol": "\u20a9"
+        }
+      }, 
+      "CNY": {
+        "code_required": false, 
+        "symbol": "&#65509;", 
+        "options": {
+          "unicode_symbol": "\uffe5"
+        }
+      }, 
+      "TRY": {
+        "code_required": false, 
+        "symbol": "&#84;&#76;", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "unicode_symbol": "TL"
+        }
+      }, 
+      "HRK": {
+        "code_required": false, 
+        "symbol": "kn", 
+        "options": null
+      }, 
+      "NZD": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "THB": {
+        "code_required": false, 
+        "symbol": "&#3647;", 
+        "options": {
+          "unicode_symbol": "\u0e3f"
+        }
+      }, 
+      "EUR": {
+        "code_required": false, 
+        "symbol": "&euro;", 
+        "options": {
+          "position": "special", 
+          "unicode_symbol": "\u20ac"
+        }
+      }, 
+      "ARS": {
+        "code_required": true, 
+        "symbol": "$", 
+        "options": null
+      }, 
+      "NOK": {
+        "code_required": true, 
+        "symbol": "kr", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "explicit_currency_not_aesthetic": true
+        }
+      }, 
+      "RUB": {
+        "code_required": false, 
+        "symbol": "&#1088;", 
+        "options": {
+          "position": "after", 
+          "unicode_symbol": "\u0440"
+        }
+      }, 
+      "INR": {
+        "code_required": false, 
+        "symbol": "&#8377;", 
+        "options": {
+          "unicode_symbol": "\u20b9"
+        }
+      }, 
+      "JPY": {
+        "code_required": false, 
+        "symbol": "&yen;", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "unicode_symbol": "\u00a5"
+        }
+      }, 
+      "CZK": {
+        "code_required": false, 
+        "symbol": "&#75;&#269;", 
+        "options": {
+          "unicode_symbol": "K\u010d"
+        }
+      }, 
+      "BRL": {
+        "code_required": false, 
+        "symbol": "R$", 
+        "options": null
+      }, 
+      "MAD": {
+        "code_required": false, 
+        "symbol": "MAD", 
+        "options": null
+      }, 
+      "PLN": {
+        "code_required": false, 
+        "symbol": "z&#22;&#322;", 
+        "options": {
+          "space_between_price_and_symbol": true, 
+          "position": "after", 
+          "unicode_symbol": "z\u0142"
+        }
+      }, 
+      "PHP": {
+        "code_required": false, 
+        "symbol": "&#8369;", 
+        "options": {
+          "unicode_symbol": "\u20b1"
+        }
+      }, 
+      "ZAR": {
+        "code_required": true, 
+        "symbol": "R", 
+        "options": null
+      }, 
+      "AED": {
+        "code_required": false, 
+        "symbol": "&#1583;.&#1573;", 
+        "options": {
+          "unicode_symbol": "\ufea9.\ufe87"
+        }
+      }
+    }, 
+    "tld_country": "US", 
+    "language": "en", 
+    "locale": "en", 
+    "country": "US", 
+    "languages": [
+      {
+        "locale": "id", 
+        "locale_name": "Bahasa Indonesia"
+      }, 
+      {
+        "locale": "ms", 
+        "locale_name": "Bahasa Melayu"
+      }, 
+      {
+        "locale": "ca", 
+        "locale_name": "Catal\u00e0"
+      }, 
+      {
+        "locale": "da", 
+        "locale_name": "Dansk"
+      }, 
+      {
+        "locale": "de", 
+        "locale_name": "Deutsch"
+      }, 
+      {
+        "locale": "en", 
+        "locale_name": "English"
+      }, 
+      {
+        "locale": "es", 
+        "locale_name": "Espa\u00f1ol"
+      }, 
+      {
+        "locale": "el", 
+        "locale_name": "E\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+      }, 
+      {
+        "locale": "fr", 
+        "locale_name": "Fran\u00e7ais"
+      }, 
+      {
+        "locale": "it", 
+        "locale_name": "Italiano"
+      }, 
+      {
+        "locale": "hu", 
+        "locale_name": "Magyar"
+      }, 
+      {
+        "locale": "nl", 
+        "locale_name": "Nederlands"
+      }, 
+      {
+        "locale": "no", 
+        "locale_name": "Norsk"
+      }, 
+      {
+        "locale": "pl", 
+        "locale_name": "Polski"
+      }, 
+      {
+        "locale": "pt", 
+        "locale_name": "Portugu\u00eas"
+      }, 
+      {
+        "locale": "fi", 
+        "locale_name": "Suomi"
+      }, 
+      {
+        "locale": "sv", 
+        "locale_name": "Svenska"
+      }, 
+      {
+        "locale": "tr", 
+        "locale_name": "T\u00fcrk\u00e7e"
+      }, 
+      {
+        "locale": "is", 
+        "locale_name": "\u00cdslenska"
+      }, 
+      {
+        "locale": "cs", 
+        "locale_name": "\u010ce\u0161tina"
+      }, 
+      {
+        "locale": "ru", 
+        "locale_name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
+      }, 
+      {
+        "locale": "th", 
+        "locale_name": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22"
+      }, 
+      {
+        "locale": "zh", 
+        "locale_name": "\u4e2d\u6587 (\u7b80\u4f53)"
+      }, 
+      {
+        "locale": "zh-TW", 
+        "locale_name": "\u4e2d\u6587 (\u7e41\u9ad4)"
+      }, 
+      {
+        "locale": "ja", 
+        "locale_name": "\u65e5\u672c\u8a9e"
+      }, 
+      {
+        "locale": "ko", 
+        "locale_name": "\ud55c\uad6d\uc5b4"
+      }
+    ], 
+    "current_locale_name": "English"
+  }
+}

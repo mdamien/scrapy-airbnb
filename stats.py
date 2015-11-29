@@ -9,6 +9,8 @@ def attrget(item, key):
     keys = key.split('.')
     for key in keys:
         item = item.get(key,'')
+        if item == None:
+            return
     return item
 
 def stats(key=None, attrget=attrget, limit=10, inception=False, data=None):
@@ -39,3 +41,12 @@ def stats(key=None, attrget=attrget, limit=10, inception=False, data=None):
         stats(key="---> "+key+'-ception', attrget=lambda i, k: i, data=c.values())
 
 stats('listing.price_interface.cancellation_policy.value')
+stats('listing.price_interface.extra_people.value')
+stats('listing.person_capacity')
+stats('listing.city')
+stats('listing.min_nights')
+stats('listing.user.is_superhost')
+stats('listing.user.smart_name')
+stats('listing.user.profile_path')
+stats('full_address')
+stats('property_type_slug')
